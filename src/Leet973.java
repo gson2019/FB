@@ -1,5 +1,5 @@
 public class Leet973 {
-    public int[][]  kikClosest(int[][] points, int K) {
+    public int[][]  kClosest(int[][] points, int K) {
         int start=0, end=points.length-1;
         while(start < end) {
             int pivot = partition(points, start, end);
